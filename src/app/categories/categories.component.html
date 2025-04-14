@@ -1,0 +1,19 @@
+<div class="productsCart">
+    <div class="productsCart__header">
+      <h2>Categories</h2>
+    </div>
+  
+    <div class="productsCart__items">
+      @for (category of categories; track $index) {
+        <div class="productsCart__item">
+          <div class="productsCart__item__img">
+            <img src="{{category.image}}" alt="Product Image" />
+          </div>
+          <div class="productsCart__item__info">
+            <p>Price: {{category.price}}</p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+  
