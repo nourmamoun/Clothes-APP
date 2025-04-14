@@ -13,6 +13,9 @@
             <h3>{{product.productName}}</h3>
             <p>{{product.productDescription}}</p>
             <p>Price: {{product.productPrice}}</p>
+            @if(product.onSale){
+              <p class="sale">product is On Sale!</p>
+            }
             <button>Add to Cart</button>
           </div>
         </div>

@@ -4,6 +4,9 @@
     justify-content: center;
     margin: 2%;
 }
+.sale{
+    color: red;
+}
 .productsCart__items {
     display: flex;
     flex-wrap: wrap; 
