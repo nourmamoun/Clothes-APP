@@ -1,0 +1,14 @@
+<div class="productsCart__item">
+    <div class="productsCart__item__img">
+      <img src="{{product.image}}" alt="Product Image" />
+    </div>
+    <div class="productsCart__item__info">
+      <h3>{{product.productName}}</h3>
+      <p>{{product.productDescription}}</p>
+      <p>Price: {{product.productPrice}}</p>
+      @if(product.onSale){
+        <p class="sale">product is On Sale!</p>
+      }
+      <button>Add to Cart</button>
+    </div>
+  </div>
